@@ -1,2 +1,2 @@
-# javascrip
+# javascript
 Java Class Toti

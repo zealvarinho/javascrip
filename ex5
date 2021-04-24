@@ -1,0 +1,29 @@
+let people= []
+
+for(let i=0; i<2; i++) {
+       alert('Let's start!' + i)
+    
+    let name=prompt('Name?') 
+    let lastname= prompt('Last Name?') 
+    let age= Number(prompt('Age?'))  
+    let citizenship=prompt( 'Where are you From?') 
+    let visit= prompt('City to visit in Brazil?')
+    
+    let dados= {
+        name,
+        lastname,
+        age,
+        citizenship,
+        visit
+    }
+
+    console.log('Welcome to Brazil:    ' + name + (' ')+ lastname )
+    console.log('AGE:    ' + age )
+    console.log('Nice! ' + citizenship)
+    console.log('Enjoy your stay in!  ' + visit)
+    
+    if(age<99){
+        console.log( 'You need the COVID-19 Vaccine Certificate ');
+    }else{
+        console.log('Please stay safe, wash your hands and wear your mask')
+    }

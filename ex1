@@ -1,0 +1,21 @@
+let name=prompt('Name?') 
+let lastname= prompt('Last Name?') 
+let age= Number(prompt('Age')) 
+let citizenship=prompt( 'Where are you From?') 
+let visit= prompt('City to visit in Brazil?')
+console.log('Welcome to Brazil:    ' + name + (' ')+ lastname )
+console.log('Age:    ' + age )
+console.log('Nice! ' + citizenship)
+console.log('Enjoy your visit to:  ' + visit)
+
+function Person( name, lastname, age, citizenship, visit){
+    this.name=prompt('What's your name?')
+    this.lastname= lastname= prompt('Last name?') 
+    this.age= Number(prompt('Age?')) 
+    this.citizenship=prompt( 'wher are you from?') 
+    this.visit= prompt('City to visit in Brazil?')
+}
+
+var data= new Person
+
+console.table(data)
